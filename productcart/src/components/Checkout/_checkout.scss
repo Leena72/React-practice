@@ -1,0 +1,156 @@
+@import './../../scss/mixins';
+
+.checkoutPage{
+    width: 100%;
+    // margin: 30px auto;
+    // font-size: 14px;
+    // font-weight: bold;
+}
+
+.cart-total{
+    font-weight: bold;
+    text-align: right;
+    color: #5E5E68;
+    margin: 20px 0;
+    padding-right: 20px;
+    p{
+        margin: 0 0 10px;
+        // font-weight: bolder;
+        
+    }
+    span{
+        color: rgb(33, 61, 77);
+    }
+}
+.checkoutPage-wrapper
+{
+    width: 70%;
+    margin: auto;
+}
+
+.checkout-table{
+    width: 100%;
+    margin: 0 auto;
+    // border: 2px solid lightgray;
+}
+
+.formdetail{
+    display: block;
+    margin:10px 0;
+    color: #314D5D;
+}
+
+.checkout-form{
+
+    border: 2px solid #b6b3b3;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+   
+    input, select{
+        padding: 10px;
+        width: 100%;
+        color: #45484d;
+    }
+}
+
+.billing{
+    position: absolute;
+    background-color: white;
+    color: #314D5D;
+    left: 20px;
+    font-weight: bold;
+    top: 13px;
+    padding: 0 10px;
+}
+
+.same-billing-checkbox{
+    display: flex;
+    margin: 0 10px 0 0;
+    align-items: center;
+    .checkbox{
+        margin-left: 10px;
+    }
+}
+
+.error-text
+{
+    color:red;
+}
+
+.order-container{
+    display: flex;
+
+}
+.orderDetails{
+    margin: 30px 0;
+   
+    border-radius: 5px;
+  
+    table{
+        margin: 25px 0;
+        width: 100%;
+
+       
+    }
+    
+    h2{
+        text-align: center;
+    
+        padding: 30px;
+       
+        word-spacing: 30px;
+        color: #5e5e5e;
+        border-bottom: 2px solid lightgray;
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+
+
+    div{
+        text-align: right;
+    }
+
+    .order-heading
+    {
+        background-color:#314D5D;
+        color: white;
+    }
+
+
+
+
+}
+.form-div{
+    width: 46%;
+   position: relative;
+}
+
+input, select{
+  
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    color: #45484d;
+    background: transparent;
+}
+
+
+.checkouttable-heading
+{
+    background-color: #314D5D;
+    color:white;
+}
+
+.total-gst
+{ p{
+    margin:10px 0;
+    font-weight: bold;
+}
+}
+
+.orderbutton
+{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+}

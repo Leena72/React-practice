@@ -1,0 +1,76 @@
+.list-wrapper,
+.items {
+  display: inline-block;
+}
+
+.list-wrapper {
+  position: absolute;
+}
+
+.items {
+      // /* position: absolute; */
+      background-color: #fff;
+      border: 1px solid lightgray;
+      // bottom: 0px;
+      /* margin: 0 20px 0 0; */
+      border-radius: 5px;
+}
+
+
+
+.items li {
+  list-style-type: none;
+  padding: 5px;
+  &:first-of-type
+  {
+    border-bottom: 1px solid lightgray;
+  }
+&:nth-of-type(3){
+  border-top: 1px solid lightgray;
+  // display: none;
+}
+
+}
+
+
+
+
+.blue-option {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: $darkBlue;
+  cursor: pointer;
+}
+
+.red-option {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: $red;
+  cursor: pointer;
+}
+
+.yellow-option {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: $yellow;
+  cursor: pointer;
+}
+
+.items > li:not(:first-child) {
+  display: none;
+}
+
+.items:hover > li:not(:first-child) {
+  display: block;
+}
+
+.item > li:nth-child(2){
+  position: absolute;
+
+}

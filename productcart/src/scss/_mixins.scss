@@ -1,0 +1,12 @@
+$lightGray: #f2f2f2;
+$blueText: #5484a0;
+$darkBlue: #314c5e;
+$orange: #de5b49;
+$yellow: #f0ca4c;
+$green: #46b29d;
+$red: #cc1400;
+
+
+@mixin button-style($paddingl-left, $padding-right){
+    padding: $paddingl-left $padding-right;
+}

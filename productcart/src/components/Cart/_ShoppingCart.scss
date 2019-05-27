@@ -1,0 +1,52 @@
+.buttons-div{
+    width: 54%;
+    margin: 35px auto;
+  
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.cart-buttons {
+    background-color: #747272;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 20px 0;
+    width: 147px;
+    color: white;
+    font-size: 15px;
+    &:focus{
+        background-color: #46B29D;
+      }
+  }
+
+  .page-heading
+  {
+    text-align: center;
+    margin: 0 0 50px 0;
+    padding: 30px;
+    box-shadow: 0 0 10px 5px #dad8d8;
+    font-weight: 600;
+    word-spacing: 30px;
+    color: #5e5e5e;
+    border-bottom: 2px solid lightgray;
+    font-size: 30px;
+    letter-spacing: 10px;
+
+  }
+
+  .cart-table
+  {
+      tr:first-of-type  {
+        background-color: #314D5D;
+        color: white;
+      }
+  }
+
+.itemImg
+{
+  height: 90px;
+  width:50px;
+}

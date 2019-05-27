@@ -1,0 +1,51 @@
+.cart-table{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.cart-table,
+th,
+td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+}
+
+
+
+th{
+  padding: 5px;
+  text-align: center;
+td{
+  color:#314D5D;
+  padding: 5px;
+}
+}
+
+
+.icon{
+  cursor: pointer;
+  
+}
+.delete-icon{
+  border: none;
+  background: transparent;
+}
+.qty
+{
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+i{
+  margin:0 10px;
+}
+}
+
+.fa-times {
+  color: #990400;
+}
+
+ .fa-minus-circle,.fa-plus-circle{
+  color: #314D5D;
+ }
